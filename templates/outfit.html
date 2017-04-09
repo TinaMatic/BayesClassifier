@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Fashion closet</title>
+		<link rel="stylesheet" type="text/css" media="screen" href="../static/new.css" />
+		<link rel="shortcut icon" href="../static/fashion_favicon.ico" />
+	</head>
+	<body>
+
+        <form method="post" action="{{ url_for('start') }}">
+		<div id="box">
+			<h1>Fashion closet</h1>
+			<h2>
+				<img src="/static/images/main_picture.png" width="665" height="180" alt="Fashion closet" title="Fashion closet" />
+			</h2>
+
+			<p id="begining"> Based on your answers here is the outfit we think you might like. </p>
+			<p id="begining">Please give us an honest opinion whether you like it or not. </p>
+
+			<div id="pictureBox">
+                <img src="../static/Styles/Dress/{{topDress}}" width="150" height="150" alt="Dress" title="Dress" />
+			</div>
+
+			<p id="begining">Do you like your outfit?</p>
+			<label>
+				<input type="radio" id="answerYes" value="Yes" name="answer" />
+				Yes
+			</label>
+			<label>
+				<input type="radio" id="answerNo" value="No" name="answer" />
+				No
+			</label>
+            <center><input type="submit" value="Done" class="button"/> </center>
+            </form>
+		</div>
+
+	</body>
+
+</html>

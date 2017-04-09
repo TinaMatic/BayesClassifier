@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Fashion closet</title>
+		<link rel="stylesheet" type="text/css" media="screen" href="../static/new.css" />
+		<link rel="shortcut icon" href="../static/fashion_favicon.ico" />
+	</head>
+	<body>
+
+        <div id="box">
+			<h1>Fashion closet</h1>
+			<h2>
+				<img src="../static/images/main_picture.png" width="665" height="180" alt="Fashion closet" title="Fashion closet" />
+			</h2>
+
+			<form method="post" action="{{ url_for('outfit') }}">
+			<p id="begining"> Based on your answers here is the outfit we think you might like. </p>
+			<p id="begining">Please give us an honest opinion whether you like it or not. </p>
+			<p id="begining">Given outfits are sample outfit. Please help us find the best outfit for you by answering whether you like them or not. </p>
+
+			<div id="pictureBox">
+                    <img src="../static/Styles/Dress/{{picture1}}" width="150" height="150" alt="Dress" title="Dress" />
+			</div>
+                <input type = "hidden" value = "{{ picture1 }}" name="picture1"/>
+
+			<p id="begining">Do you like your outfit?</p>
+			<label>
+				<input type="radio" id="answerYes" value="Yes" name="answer1" />
+				Yes
+			</label>
+			<label>
+				<input type="radio" id="answerNo" value="No" name="answer1" />
+				No
+			</label>
+
+			<div id="pictureBox">
+                <img src="../static/Styles/Dress/{{picture2}}" width="150" height="150" alt="Dress" title="Dress" />
+			</div>
+            <input type = "hidden" value = "{{ picture2 }}" name="picture2"/>
+
+			<p id="begining">Do you like your outfit?</p>
+			<label>
+				<input type="radio" id="answerYes" value="Yes" name="answer2" />
+				Yes
+			</label>
+			<label>
+				<input type="radio" id="answerNo" value="No" name="answer2" />
+				No
+			</label>
+
+			<div id="pictureBox">
+                <img src="../static/Styles/Dress/{{picture3}}" width="150" height="150" alt="Dress" title="Dress" />
+			</div>
+            <input type = "hidden" value = "{{ picture3 }}" name="picture3"/>
+
+			<p id="begining">Do you like your outfit?</p>
+			<label>
+				<input type="radio" id="answerYes" value="Yes" name="answer3" />
+				Yes
+			</label>
+			<label>
+				<input type="radio" id="answerNo" value="No" name="answer3" />
+				No
+			</label>
+
+			<div id="pictureBox">
+                <img src="../static/Styles/Dress/{{picture4}}" width="150" height="150" alt="Dress" title="Dress" />
+			</div>
+            <input type = "hidden" value = "{{ picture4 }}" name="picture4"/>
+
+			<p id="begining">Do you like your outfit?</p>
+			<label>
+				<input type="radio" id="answerYes" value="Yes" name="answer4" />
+				Yes
+			</label>
+			<label>
+				<input type="radio" id="answerNo" value="No" name="answer4" />
+				No
+			</label>
+
+			<div id="pictureBox">
+                <img src="../static/Styles/Dress/{{picture5}}" width="150" height="150" alt="Dress" title="Dress" />
+			</div>
+            <input type = "hidden" value = "{{ picture5 }}" name="picture5"/>
+
+			<p id="begining">Do you like your outfit?</p>
+			<label>
+				<input type="radio" id="answerYes" value="Yes" name="answer5" />
+				Yes
+			</label>
+			<label>
+				<input type="radio" id="answerNo" value="No" name="answer5" />
+				No
+			</label>
+
+			<center><input type="submit" value="Submit" class="button"/> </center>
+			<!--<center><a href="outfit.html" class="button">SUBMIT</a></center>-->
+			</form>
+		</div>
+
+	</body>
+
+</html>

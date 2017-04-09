@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Fashion closet</title>
+		<link rel="stylesheet" type="text/css" media="screen" href="../static/new.css" />
+		<link rel="shortcut icon" href="../static/fashion_favicon.ico" />
+	</head>
+	<body>
+
+		<div id="box">
+			<h1>Fashion closet</h1>
+			<h2>
+				<img src="../static/images/main_picture.png" width="665" height="180" alt="Fashion closet" title="Fashion closet" />
+			</h2>
+
+			<form method = "post" action="{{ url_for('sample') }}">
+
+			<p id="question">1. How would you describe your style? Choose 3 styles</p>
+
+
+			<fieldset id="question1">
+
+			<div id="casual">
+				<img src="../static/Style_Types/casual.jpg" width="100" height="100" alt="casual" title="casual" />
+				<figcaption>Casual</figcaption>
+				<input type="checkbox" id="casual" value="casual" name="style" />
+			</div>
+
+			<div id="classic">
+				<img src="../static/Style_Types/classic.jpg" width="100" height="100" alt="classic" title="classic" />
+				<figcaption>Classic</figcaption>
+				<input type="checkbox" id="classic" value="classic" name="style" />
+			</div>
+
+			<div id="sexy">
+				<img src="../static/Style_Types/sexy.jpg" width="100" height="100" alt="sexy" title="sexy" />
+				<figcaption>Sexy</figcaption>
+				<input type="checkbox" id="sexy" value="sexy" name="style" />
+			</div>
+
+			<div id="glamorous">
+				<img src="../static/Style_Types/glamorous.jpg" width="100" height="100" alt="glamorous" title="glamorous" />
+				<figcaption>Glamorous</figcaption>
+				<input type="checkbox" id="glamorous" value="glamorous" name="style" />
+			</div>
+
+			<div id="grunge">
+				<img src="../static/Style_Types/grunge.jpg" width="100" height="100" alt="grunge" title="grunge" />
+				<figcaption>Grunge</figcaption>
+				<input type="checkbox" id="grunge" value="grunge" name="style" />
+			</div>
+
+			<div id="exotic">
+				<img src="../static/Style_Types/exotic.jpg" width="100" height="100" alt="exotic" title="exotic" />
+				<figcaption>Exotic</figcaption>
+				<input type="checkbox" id="exotic" value="exotic" name="style" />
+			</div>
+
+			<div id="chic">
+				<img src="../static/Style_Types/chic.jpg" width="100" height="100" alt="chic" title="chic" />
+				<figcaption>Chic</figcaption>
+				<input type="checkbox" id="chic" value="chic" name="style" />
+			</div>
+
+			<div id="artsy">
+				<img src="../static/Style_Types/artsy.jpg" width="100" height="100" alt="artsy" title="artsy" />
+				<figcaption>Artsy</figcaption>
+				<input type="checkbox" id="artsy" value="artsy" name="style" />
+			</div>
+			<div id="sporty">
+				<img src="../static/Style_Types/sporty.jpg" width="100" height="100" alt="sporty" title="sporty" />
+				<figcaption>Sporty</figcaption>
+				<input type="checkbox" id="sporty" value="sporty" name="style" />
+			</div>
+			</fieldset>
+
+
+			<p id="question">2. What is your favourite color? Choose top 3</p>
+			<label>
+				<input type="checkbox" id="black" value="Black" name="color" />
+				Black
+			</label>
+
+			<label>
+				<input type="checkbox" id="white" value="White" name="color" />
+				White
+			</label>
+
+			<label>
+				<input type="checkbox" id="yellow" value="Yellow" name="color" />
+				Yellow
+			</label>
+
+			<label>
+				<input type="checkbox" id="red" value="Red" name="color" />
+				Red
+			</label>
+
+			<label>
+				<input type="checkbox" id="blue" value="Blue" name="color" />
+				Blue
+			</label>
+
+			<label>
+				<input type="checkbox" id="green" value="Green" name="color" />
+				Green
+			</label>
+
+			<label>
+				<input type="checkbox" id="pink" value="Pink" name="color" />
+				Pink
+			</label>
+
+			<label>
+				<input type="checkbox" id="orange" value="Orange" name="color" />
+				Orange
+			</label>
+
+			<label>
+				<input type="checkbox" id="purple" value="Purple" name="color" />
+				Purple
+			</label>
+
+			<label>
+				<input type="checkbox" id="grey" value="Grey" name="color" />
+				Grey
+			</label>
+
+			<label>
+				<input type="checkbox" id="brown" value="Brown" name="color" />
+				Brown
+			</label>
+
+			<p id="question">3. How important is comfort for you? (5-extreamlly important 1-not important at all) </p>
+
+			<label>
+				<input type="radio" id="one" value="One" name="comfort" />
+				1
+			</label>
+
+			<label>
+				<input type="radio" id="two" value="Two" name="comfort" />
+				2
+			</label>
+
+			<label>
+				<input type="radio" id="three" value="Three" name="comfort" />
+				3
+			</label>
+
+			<label>
+				<input type="radio" id="four" value="Four" name="comfort" />
+				4
+			</label>
+
+			<label>
+				<input type="radio" id="five" value="Five" name="comfort" />
+				5
+			</label>
+
+			<center><input type="submit" value="Submit" class="button"/> </center>
+			<!--<center><a href="sample.html" class="button">SUBMIT</a></center>-->
+			</form>
+		</div>
+
+	</body>
+</html>

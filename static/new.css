@@ -1,0 +1,240 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Times New Roman", Times, serif;
+	background: url("images/fashion girls.jpg");
+}
+
+h1, h2 {
+	text-align: center;
+	color: MidnightBlue;
+}
+
+h1{
+	margin: 0;
+	font-size: 3pm;
+	background: white;
+	padding: 0.25em;
+}
+
+figure {
+	display: block;
+	float: left;
+	margin: 5px 20px 20px 5px;
+	padding: 0;
+	text-align: center;
+}
+
+img {
+	border: none;
+	margin: 0 auto;
+}
+
+nav{
+	display: block;
+}
+
+#maintext{
+	font-weight: bold;
+}
+
+#button_text{
+	font-weight: bold;
+    font-size: 10pm;
+}
+
+#button {
+	background: PowderBlue;
+	border-radius: 5px;
+	border: 4px ridge;
+	position: center;
+	text-align: center;
+	font-weight: bold;
+    font-size: 7pm;
+	margin: 0;
+	padding: 0;
+}
+
+#box {
+  border-width: 0.25em;
+  border-style: solid;
+  border-color: black;
+  width: 50em;
+  margin: auto;
+  top: 50%;
+  bottom: 50%;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  background: pink;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+ }
+
+#question1{
+	 border: 0px solid pink;
+ }
+
+#casual{
+	float: left;
+	margin: 5px 20px 20px 5px;
+	padding: 0;
+	text-align: center;
+ }
+
+#classic{
+	float: left;
+	margin: 5px 20px 20px 5px;
+	padding: 0;
+	text-align: center;
+ }
+
+#sexy{
+	float: left;
+	margin: 5px 20px 20px 5px;
+	padding: 0;
+	text-align: center;
+ }
+
+#glamorous{
+	float: left;
+	margin: 5px 20px 20px 5px;
+	padding: 0;
+	text-align: center;
+ }
+
+#grunge{
+	float: left;
+	margin: 5px 20px 20px 5px;
+	padding: 0;
+	text-align: center;
+ }
+
+#exotic{
+	float: left;
+	margin: 5px 20px 20px 5px;
+	padding: 0;
+	text-align: center;
+ }
+
+#chic{
+	float: left;
+	margin: 5px 20px 20px 5px;
+	padding: 0;
+	text-align: center;
+ }
+
+#artsy{
+	float: left;
+	margin: 5px 20px 20px 5px;
+	padding: 0;
+	text-align: center;
+ }
+
+#sporty{
+	float: left;
+	margin: 5px 20px 20px 5px;
+	padding: 0;
+	text-align: center;
+ }
+
+#question{
+	text-align: left;
+	font-weight: bold;
+	position: relative;
+ }
+
+#question5{
+	 border: 0px solid pink;
+ }
+
+#question6{
+	 border: 0px solid pink;
+ }
+
+#question7{
+	 border: 0px solid pink;
+ }
+
+#clothes{
+	border: 2px solid MidnightBlue;
+	width: 350px;
+	height: 50px;
+	float: left;
+}
+
+#clothes label{
+	text-align: clear;
+}
+
+#shoes{
+	border: 2px solid MidnightBlue;
+	width: 350px;
+	height: 50px;
+	float: right;
+}
+
+#picture2{
+	 float: right;
+ }
+
+ #submitbutton {
+  border: none;
+  padding: 0.5em 0 0 0;
+  text-align: center;
+  }
+
+ #submit{
+	 font-weight: bold;
+
+ }
+
+ .button {
+    background-color: MidnightBlue;
+    border: none;
+    color: white;
+    padding: 14px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-weight: bold;
+	position: center;
+	margin: 0 auto;
+	border-radius: 5px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button:hover {
+	color: Blue;
+}
+
+.button:active{
+	background-color: MidnightBlue;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+#begining {
+	text-align: left;
+	font-weight: bold;
+	position: relative;
+}
+
+#pictureBox{
+	border-width: 0.25em;
+	border-style: solid;
+	border-color: black;
+	width: 20em;
+	margin: auto;
+	top: 20%;
+	bottom: 20%;
+	padding: 100px;
+	font-family: "Times New Roman", Times, serif;
+	background: white;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
